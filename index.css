@@ -5,8 +5,8 @@ body {
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: lightpink;
+    color: #3d9c68;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@ body {
   }
   
   header nav a {
-    color: #fff;
+    color: #726ccc;
     text-decoration: none;
     padding: 10px 20px;
   }
@@ -73,8 +73,8 @@ section h2 {
   
   button[type="submit"] {
     padding: 0.5em 1em;
-    background-color: #333;
-    color: #fff;
+    background-color: #46a5c2;
+    color: #b69347;
     border: none;
     cursor: pointer;
   }
