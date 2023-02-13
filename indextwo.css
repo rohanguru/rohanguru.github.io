@@ -1,0 +1,21 @@
+.bgimage {
+    height:100vh;
+    background: url('https://tse1.mm.bing.net/th?id=OIP.0852pxp8FIyp5s0p-JGvawHaEK&pid=Api&rs=1&c=1&qlt=95&w=216&h=121');
+    background-size:cover;
+    position:relative;
+  }
+  /* text css above hero image*/
+  .hero_title {
+    font-size: 4.5rem;
+  }
+  .hero_desc {
+    font-size: 2rem;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
