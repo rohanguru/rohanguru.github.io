@@ -1,53 +1,38 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Hi, I'm Rohan Guru. I'm a Salesforce developer specializing in creating beautiful and functional websites. My goal is to deliver high-quality projects that meet the client's needs and exceed their expectations.</p>
-    </section>
-    <section id="projects">
-      <h2>My Projects</h2>
-      <ul>
-        <li>
-          <h3>Project 1</h3>
-          <p>View Details</p>
-        </li>
-        <li>
-          <h3>Project 2</h3>
-          <p>View Details</p>
-        </li>
-        <li>
-          <h3>Project 3</h3>
-          <p>view Details</p>
-        </li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form action="submit-form.php" method="post">
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="email" placeholder="Email">
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright &copy; 2022 John Doe</p>
-  </footer>
-</body>
-</html>
+<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+  <div class="container">
+      <a class="navbar-brand" href="#">Rohan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                  < a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </ul>
+          
+      </div>
+  </div>
+</nav>
+<section class="bgimage" id="home">
+  <div class="container-fluid">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+          <h2 class="hero_title">Hi, it's me Rohan</h2>
+          <p class="hero_desc">I am a Salesforce developer in VamriTech Private Limited.</p>
+      </div>
+      </div>
+  </div>
+</section>
